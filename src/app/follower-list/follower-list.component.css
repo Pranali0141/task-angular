@@ -1,0 +1,20 @@
+.follower-grid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.follower-item{
+    margin-top: 20px;
+}
+.items{
+    padding: 5px;
+    height: 350px;
+    width:250px;
+    background-color: white;
+}
+.p-title{
+    height: 40px;
+}

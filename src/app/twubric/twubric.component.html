@@ -1,0 +1,14 @@
+<div>
+    Sort By
+    Twubric Score Friends Influence Chirpiness
+    Joined Twitter between
+    <input type="date" placeholder="Start Date">
+    ↓
+    <input type="date" placeholder="End Date">
+    ↓
+</div>
+  
+  <div *ngIf="twubricData">
+    <!-- Display followers in a grid or any other format -->
+    <app-follower-list [followers]="twubricData.followers"></app-follower-list>
+  </div>

@@ -1,0 +1,5 @@
+<div *ngFor="let follower of followers">
+    <!-- Display follower information as per the mockup -->
+    {{ follower.name }} - {{ follower.twubricScore }}
+    <button (click)="removeFollower(follower.id)">Remove</button>
+  </div>
